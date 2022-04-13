@@ -1,10 +1,12 @@
-# Title (replace with your title)
+# Regular Expressions and Email Validation
 
-Introductory paragraph (replace this with your text)
+In this write up I will explore how we can use regular expressions to validate emails for use in form validation.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+> /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+In this write up I will explore how to read this regular expression, how to identify different components that make up the regex, and how we can use this for validating email inputs.
 
 ## Table of Contents
 
